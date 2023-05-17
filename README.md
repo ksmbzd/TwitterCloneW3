@@ -1,39 +1,37 @@
-# TwitterCloneW3
+# Decentralized Twitter Clone W3 Application
 
 This is a decentralized Twitter clone application built on Ethereum Blockchain, utilizing the power of smart contracts. The application provides functionalities similar to Twitter, such as tweeting, viewing tweets, deleting tweets, and updating user profiles. The application is divided into two main parts: the smart contract built with Solidity and the client-side application built with React.
 
-*Specifications*
+## Specifications
 
-Any user should be able to read all the tweets.
-All the tweets should be ordered in a chronological order.
-Any user should be able to write tweets.
-A user should be able to update a tweet they wrote.
-A user should be able to delete a tweet they wrote.
-Deleting a tweet should NOT affect the access to the other tweets.
-Deleting a tweet should NOT affect the order of the other tweets.
-Smart contract(s) should be deployed to Ropsten.
-Smart contract(s) should be tested with at least 80% line coverage.
+- Any user should be able to read all the tweets.
+- All the tweets should be ordered in a chronological order.
+- Any user should be able to write tweets.
+- A user should be able to update a tweet they wrote.
+- A user should be able to delete a tweet they wrote.
+- Deleting a tweet should NOT affect the access to the other tweets.
+- Deleting a tweet should NOT affect the order of the other tweets.
+- Smart contract(s) should be deployed to Ropsten.
+- Smart contract(s) should be tested with at least 80% line coverage.
 
-*Project Setup*
+## Project Setup
 
-Create a virtual wallet Metamask account and select "Rinkeby Test Network". If you're unfamiliar with this process, consider reading this article.
+1. Create a virtual wallet Metamask account and select "Rinkeby Test Network". 
+2. Get testnet Ether (ETH) to test and troubleshoot our decentralized application. You can get it from Chainlink and Rinkeby Faucet.
+3. Create an account on Alchemy and generate an API key by creating an app. This will allow us to make requests to the Rinkeby Test Network.
+4. After cloning the repo, create a .env file in the same format as .env.example and fill in your keys.
 
-Get testnet Ether (ETH) to test and troubleshoot our decentralized application. You can get it from Chainlink and Rinkeby Faucet.
+## Installation and Running the Project
 
-Create an account on Alchemy and generate an API key by creating an app. This will allow us to make requests to the Rinkeby Test Network.
+Ensure you have installed Git, Node.js. Use the following commands:
 
-After cloning the repo, create a .env file in the same format as .env.example and fill in your keys.
+```bash
+git clone <repo_link>
+cd <repo_name>/server
+npm i
+cd ../client
+npm```
 
-**Installation and Running the Project**
-
-Ensure you have installed Git, Node.js (using nvm is recommended).
-
-*Clone the repository to your local machine:*
-1. git clone
-**Testing the Smart Contract**
-Navigate to the server directory and test the smart contract:
-cd server
-npx hardhat test
 
 *Deployment*
 Navigate to the server directory and deploy the smart contract:
