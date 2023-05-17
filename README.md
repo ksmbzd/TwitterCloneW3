@@ -2,7 +2,7 @@
 
 This is a decentralized Twitter clone application built on Ethereum Blockchain, utilizing the power of smart contracts. The application provides functionalities similar to Twitter, such as tweeting, viewing tweets, deleting tweets, and updating user profiles. The application is divided into two main parts: the smart contract built with Solidity and the client-side application built with React.
 
-Specifications
+*Specifications*
 
 Any user should be able to read all the tweets.
 All the tweets should be ordered in a chronological order.
@@ -14,7 +14,7 @@ Deleting a tweet should NOT affect the order of the other tweets.
 Smart contract(s) should be deployed to Ropsten.
 Smart contract(s) should be tested with at least 80% line coverage.
 
-Project Setup
+*Project Setup*
 
 Create a virtual wallet Metamask account and select "Rinkeby Test Network". If you're unfamiliar with this process, consider reading this article.
 
@@ -28,14 +28,14 @@ After cloning the repo, create a .env file in the same format as .env.example an
 
 Ensure you have installed Git, Node.js (using nvm is recommended).
 
-**Clone the repository to your local machine:**
+*Clone the repository to your local machine:*
 1. git clone
 **Testing the Smart Contract**
 Navigate to the server directory and test the smart contract:
 cd server
 npx hardhat test
 
-**Deployment**
+*Deployment*
 Navigate to the server directory and deploy the smart contract:
 
 Copy the generated contract address and paste it in the config file.
@@ -44,10 +44,10 @@ NOTE: You can also run the scripts inside package.json inside the server directo
 After deploying your smart contract, you can copy the generated contract address and check it out on the Rinkeby Etherscan.
 
 
-##Smart Contract
+*Smart Contract*
 This application is powered by a Solidity smart contract named 'Twitter'. The contract provides the core functionalities of the application, such as adding, fetching, and deleting tweets, as well as updating user profiles.
 
-##Functions
+*Functions*
 `addTweet(string memory tweetText,string memory tweetImg)`: Function to add a new tweet. It requires 0.01 Ether to upload a tweet.
 `getAllTweets()`: Function to fetch all tweets.
 `getMyTweets()`: Function to fetch all tweets of a specific user.
@@ -57,8 +57,8 @@ This application is powered by a Solidity smart contract named 'Twitter'. The co
 `updateUser(string memory newName,string memory newBio,string memory newProfileImg,string memory newProfileBanner)`: Function to update user details.
 `getUser(address userAddress)`: Function to get user details.
 
-##Contributing
+*Contributing*
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-##Troubleshooting
+*Troubleshooting*
 If you run into any issues when following the setup instructions do not hesitate to contact me. We would appreciate your feedback!
