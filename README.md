@@ -31,7 +31,7 @@ Ensure you have installed Git, Node.js. Use the following commands:
 `cd ../client`
 `npm`
 
-##Deployment
+*Deployment*
 Navigate to the server directory and deploy the smart contract:
 
 Copy the generated contract address and paste it in the config file.
