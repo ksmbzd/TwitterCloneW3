@@ -24,16 +24,14 @@ This is a decentralized Twitter clone application built on Ethereum Blockchain, 
 ## Installation and Running the Project
 
 Ensure you have installed Git, Node.js. Use the following commands:
+`bash`
+`git clone <repo_link>`
+`cd <repo_name>/server`
+`npm i`
+`cd ../client`
+`npm`
 
-```bash
-git clone <repo_link>
-cd <repo_name>/server
-npm i
-cd ../client
-npm```
-
-
-*Deployment*
+##Deployment
 Navigate to the server directory and deploy the smart contract:
 
 Copy the generated contract address and paste it in the config file.
