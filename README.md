@@ -1,6 +1,6 @@
 # Decentralized Twitter Clone W3 Application
 
-This is a decentralized Twitter clone application built on Ethereum Blockchain, utilizing the power of smart contracts. The application provides functionalities similar to Twitter, such as tweeting, viewing tweets, deleting tweets, and updating user profiles. The application is divided into two main parts: the smart contract built with Solidity and the client-side application built with React.
+This is a decentralized Twitter clone application built on Ethereum Blockchain, utilizing the power of smart contracts. The application provides functionalities similar to Twitter, such as tweeting, viewing tweets, deleting tweets, and updating user profiles and tweets. The application is divided into two main parts: the smart contract built with Solidity and the client-side application built with React.
 
 ## Specifications
 
